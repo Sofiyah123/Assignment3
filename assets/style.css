@@ -85,11 +85,6 @@ h4 {
   margin-top: 3rem;
   padding-right: 2rem;
 }
-.img-div {
-}
-hr {
-  width: 3rem;
-}
 .view {
   font-weight: bold;
 }
@@ -103,6 +98,9 @@ h1 {
 @media (max-width: 747px) {
   h1 {
     font-size: 40px;
+  }
+  .text-section {
+    padding-left: 1rem;
   }
   .hr-lines:after {
     content: " ";
@@ -125,5 +123,17 @@ h1 {
   }
   .img {
     height: 100%;
+  }
+  .text {
+    margin-top: 1.5rem;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1124px) {
+  h1 {
+    font-size: 40px;
   }
 }
