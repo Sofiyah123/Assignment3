@@ -114,4 +114,16 @@ h1 {
     top: 50%;
     right: -2.5rem;
   }
+  main {
+    height: auto;
+  }
+  .text-section {
+    height: auto;
+  }
+  .img-section {
+    height: auto;
+  }
+  .img {
+    height: 100%;
+  }
 }
